@@ -1,0 +1,205 @@
+/* styles.css */
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Container for the table */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 20px;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+td {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+/* Button styles */
+.button-group {
+    margin-top: 5px;
+}
+
+.button-group button {
+    margin-right: 5px;
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    padding: 6px 10px; /* Adjusted padding for smaller buttons */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    font-size: 14px; /* Adjusted font size for smaller buttons */
+}
+
+.button-group button:hover {
+    background-color: #5a6268;
+}
+
+.compare-button {
+    background-color: #28a745;
+}
+
+.compare-button:hover {
+    background-color: #218838;
+}
+
+.compare-placement-button {
+    margin-top: 10px;
+    background-color: #dc3545;
+}
+
+.compare-placement-button:hover {
+    background-color: #c82333;
+}
+
+/* Updated button styles for icons */
+.button-group .download-button {
+    background-color: #007BFF;
+}
+
+.button-group .compare-button {
+    background-color: #6c757d;
+}
+
+.button-group .apply-button {
+    background-color: #28a745;
+}
+
+.button-group .button-icon {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+/* Ratings Modal styles */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 8px;
+}
+
+.modal-content ul {
+    padding-left: 20px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.ratings-button {
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.ratings-button:hover {
+    background-color: #444;
+}
+
+.ratings-list {
+    display: none;
+    list-style-type: none;
+    padding: 0;
+}
+
+.ratings-list li {
+    margin-bottom: 5px;
+}
+
+/* Logo and College Name styles */
+.college-name {
+    display: flex;
+    align-items: center;
+}
+
+.college-logo {
+    width: 16px; /* Adjust the size of the logo */
+    height: 16px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.college-details {
+    font-size: 14px; /* Adjusted font size for college details */
+    color: #888;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    th, td {
+        padding: 8px;
+    }
+}

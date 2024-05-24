@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colleges Table</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 style="color: #007BFF;">Colleges Table</h1>
+        <input type="text" id="searchInput" placeholder="Search by college name...">
+        <table>
+            <thead>
+                <tr>
+                    <th onclick="sortTable('cdRank')">CD Rank</th>
+                    <th onclick="sortTable('name')">College Name</th>
+                    <th onclick="sortTable('fees')">Course Fees</th>
+                    <th onclick="sortTable('placement')">Placement Details</th>
+                    <th onclick="sortTable('userRating')">User Rating</th>
+                    <th onclick="sortTable('ranking')">Ranking</th>
+                </tr>
+            </thead>
+            <tbody id="collegeTableBody">
+                <!-- Table rows will be added dynamically with JavaScript -->
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Ratings Modal -->
+    <div id="ratingsModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3>Ratings</h3>
+            <ul id="ratingsList"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

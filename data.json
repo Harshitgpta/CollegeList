@@ -1,0 +1,12 @@
+[
+    {"cdRank": 1, "name": "IIT Madras, Chennai", "course": "B.Tech", "fees": 5, "placement": "90%", "userReviews": 4.2, "ranking": "1/35", "ratings": {"NIRF": 4, "NAAC": 4.5, "NASSCOM": 3.5}, "location": "Chennai", "logo": "logo.png"},
+    {"cdRank": 2, "name": "College B", "course": "B.E", "fees": 4.5, "placement": "85%", "userReviews": 4.0, "ranking": "2/35", "ratings": {"NIRF": 3.5, "NAAC": 4, "NASSCOM": 4}, "location": "Location B", "logo": "logo.png"},
+    {"cdRank": 3, "name": "College C", "course": "B.Tech", "fees": 5.5, "placement": "88%", "userReviews": 3.9, "ranking": "3/35", "ratings": {"NIRF": 4, "NAAC": 3.5, "NASSCOM": 4}, "location": "Location C", "logo": "logo.png"},
+    {"cdRank": 4, "name": "College D", "course": "B.E", "fees": 6, "placement": "92%", "userReviews": 4.6, "ranking": "4/35", "ratings": {"NIRF": 4.5, "NAAC": 4, "NASSCOM": 4.5}, "location": "Location D", "logo": "logo.png"},
+    {"cdRank": 5, "name": "College E", "course": "B.Tech", "fees": 3, "placement": "80%", "userReviews": 4.1, "ranking": "5/35", "ratings": {"NIRF": 4, "NAAC": 3.5, "NASSCOM": 3.5}, "location": "Location E", "logo": "logo.png"},
+    {"cdRank": 6, "name": "College F", "course": "B.E", "fees": 4, "placement": "75%", "userReviews": 3.7, "ranking": "6/35", "ratings": {"NIRF": 3.5, "NAAC": 3, "NASSCOM": 3}, "location": "Location F", "logo": "logo.png"},
+    {"cdRank": 7, "name": "College G", "course": "B.Tech", "fees": 5, "placement": "95%", "userReviews": 4.5, "ranking": "7/35", "ratings": {"NIRF": 4.5, "NAAC": 4.5, "NASSCOM": 4}, "location": "Location G", "logo": "logo.png"},
+    {"cdRank": 8, "name": "College H", "course": "B.E", "fees": 4.5, "placement": "82%", "userReviews": 4.0, "ranking": "8/35", "ratings": {"NIRF": 3.5, "NAAC": 3.5, "NASSCOM": 3.5}, "location": "Location H", "logo": "logo.png"},
+    {"cdRank": 9, "name": "College I", "course": "B.Tech", "fees": 3.5, "placement": "78%", "userReviews": 3.8, "ranking": "9/35", "ratings": {"NIRF": 3.5, "NAAC": 3.5, "NASSCOM": 3}, "location": "Location I", "logo": "logo.png"},
+    {"cdRank": 10, "name": "College J", "course": "B.E", "fees": 4, "placement": "85%", "userReviews": 4.2, "ranking": "10/35", "ratings": {"NIRF": 4, "NAAC": 4, "NASSCOM": 4}, "location": "Location J", "logo": "logo.png"}
+]
